@@ -3,7 +3,7 @@ import about from '../assets/About illustration.svg';
 
 function About() {
     return(
-        <footer className='about'>
+        <div className='about'>
             <div className='head-btn abo'>About</div>
             <section className='display-about'>
                 <img src={about} alt="kalpesh" className='about-img'/>
@@ -13,7 +13,7 @@ function About() {
                     <button>Download Resume</button>
                 </div>
             </section>
-        </footer>
+        </div>
     );
 }
 
