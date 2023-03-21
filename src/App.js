@@ -4,6 +4,7 @@ import Hero from './components/hero';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -13,8 +14,11 @@ function App() {
         <Hero/>
         <Experience/>
         <Projects/>
+        <About/>
       </main>
-      <About/>
+      <footer>
+        <Contact/>
+      </footer>
     </>
   );
 }
