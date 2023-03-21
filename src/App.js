@@ -1,6 +1,7 @@
 import './App.css';
 import Navigation from './components/Navigation';
 import Hero from './components/hero';
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navigation />
       <main>
         <Hero/>
+        <Experience/>
       </main>
     </>
   );

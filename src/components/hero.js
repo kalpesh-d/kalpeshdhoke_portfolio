@@ -3,7 +3,7 @@ import KalpeshAi from '../assets/Kalpesh illustration.svg';
 
 function Hero() {
     return(
-        <div className='hero'>
+        <div className='hero' id='home'>
             <div class="hero-text">
                 <h1 className='head1'>Hello!<br/>I'm Kalpesh</h1>
                 <h2 className='head2'>Front-End Developer<br/>& Designer</h2>

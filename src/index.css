@@ -17,7 +17,6 @@ body {
   font-family: Inter, sans-serif;
   color: var(--primary-color);
   background-color: white;
-  overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
