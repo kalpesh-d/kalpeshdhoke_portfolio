@@ -1,17 +1,38 @@
+:root {
+  --primary-color: #1e1e1e;
+  --secondary-color: #5b38e3;
+}
+
 html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
   font-size: 62.5%;
 }
 
 body {
   margin: 0;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 1.4rem;
   line-height: 1.4;
   font-family: Inter, sans-serif;
-  color: #1e1e1e;
+  color: var(--primary-color);
   background-color: white;
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
 }
