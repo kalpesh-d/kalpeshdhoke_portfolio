@@ -4,3 +4,16 @@
   --primary-color: #1e1e1e;
   --secondary-color: #5b38e3;
 }
+
+h1,
+h2 {
+  color: var(--primary-color);
+  font-family: "Darker Grotesque";
+  margin: 0;
+  line-height: 0.8;
+}
+
+p {
+  line-height: 1;
+  margin: 0;
+}
