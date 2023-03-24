@@ -1,9 +1,9 @@
-.projects {
+#projects {
   margin: 0 25rem;
 }
 
 .pro {
-  margin-bottom: 6rem;
+  margin: 2rem 0 3rem 0;
   width: 11rem;
 }
 
@@ -41,7 +41,7 @@
 }
 
 @media screen and (min-width: 375px) and (max-width: 700px) {
-  .projects {
+  #projects {
     margin: 0 3rem;
   }
   .display-project {

@@ -3,7 +3,7 @@ import about from '../assets/About illustration.svg';
 
 function About() {
     return(
-        <div className='about'>
+        <div id='about'>
             <div className='head-btn abo'>About</div>
             <section className='display-about'>
                 <img src={about} alt="kalpesh" className='about-img'/>

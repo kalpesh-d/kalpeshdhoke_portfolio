@@ -1,4 +1,4 @@
-.about {
+#about {
   margin: 0 25rem;
   padding: 3rem 0;
 }
@@ -52,7 +52,7 @@ button:active {
 }
 
 @media screen and (min-width: 375px) and (max-width: 700px) {
-  .about {
+  #about {
     margin: 0 3rem;
     padding: 0;
   }
