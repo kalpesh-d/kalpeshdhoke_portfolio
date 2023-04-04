@@ -1,5 +1,6 @@
 #projects {
-  margin: 0 25rem;
+  padding: 0 40rem;
+  margin: 0 auto;
 }
 
 .pro {
@@ -42,7 +43,8 @@
 
 @media screen and (min-width: 375px) and (max-width: 700px) {
   #projects {
-    margin: 0 3rem;
+    margin: 0 5rem;
+    padding: 0;
   }
   .display-project {
     flex-direction: column;

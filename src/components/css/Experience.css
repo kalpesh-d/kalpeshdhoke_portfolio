@@ -1,5 +1,6 @@
 .exp {
-  margin: 0 25rem;
+  padding: 0 40rem;
+  margin: 0 auto;
 }
 .exp-work {
   padding: 4rem 0;
@@ -14,6 +15,7 @@
 
 @media screen and (min-width: 375px) and (max-width: 700px) {
   .exp {
-    margin: 0 3rem;
+    margin: 0 5rem;
+    padding: 0;
   }
 }

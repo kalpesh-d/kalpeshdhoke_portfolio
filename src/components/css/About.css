@@ -1,6 +1,6 @@
 #about {
-  margin: 0 25rem;
-  padding: 3rem 0;
+  padding: 3rem 40rem;
+  margin: 0 auto;
 }
 
 .about-img {
@@ -53,7 +53,7 @@ button:active {
 
 @media screen and (min-width: 375px) and (max-width: 700px) {
   #about {
-    margin: 0 3rem;
+    margin: 0 5rem;
     padding: 0;
   }
   .display-about {
